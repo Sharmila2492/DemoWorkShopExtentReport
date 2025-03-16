@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-16T17:26:43 IST" name="Suite" finished-at="2025-03-16T17:26:53 IST" duration-ms="10612">
+    <groups>
+    </groups>
+    <test started-at="2025-03-16T17:26:43 IST" name="EdgeTest1" finished-at="2025-03-16T17:26:43 IST" duration-ms="139">
+      <class name="test.InvalidLoginTest">
+        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:test.InvalidLoginTest@24aed80c]" started-at="2025-03-16T17:26:42 IST" name="reportInitialization" finished-at="2025-03-16T17:26:43 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialization -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.InvalidLoginTest@24aed80c]" started-at="2025-03-16T17:26:43 IST" name="setUp" finished-at="2025-03-16T17:26:43 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.InvalidLoginTest@24aed80c]" started-at="2025-03-16T17:26:43 IST" name="testDetails" finished-at="2025-03-16T17:26:43 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Test name must not be null or empty]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Test name must not be null or empty
+at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:97)
+at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:118)
+at com.aventstack.extentreports.ExtentReports.createTest(ExtentReports.java:231)
+at Base.ProjectSpecificationMethods.testDetails(ProjectSpecificationMethods.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="LaunchingAndLoading(java.lang.String,java.lang.String)[pri:0, instance:test.InvalidLoginTest@24aed80c]" started-at="2025-03-16T17:26:43 IST" name="LaunchingAndLoading" finished-at="2025-03-16T17:26:43 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingAndLoading -->
+        <test-method signature="InvalidLoginTest()[pri:0, instance:test.InvalidLoginTest@24aed80c]" started-at="2025-03-16T17:26:43 IST" name="InvalidLoginTest" finished-at="2025-03-16T17:26:43 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Test name must not be null or empty]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Test name must not be null or empty
+at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:97)
+at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:118)
+at com.aventstack.extentreports.ExtentReports.createTest(ExtentReports.java:231)
+at Base.ProjectSpecificationMethods.testDetails(ProjectSpecificationMethods.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.InvalidLoginTest@24aed80c]" started-at="2025-03-16T17:26:43 IST" name="closebrowser" finished-at="2025-03-16T17:26:43 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:test.InvalidLoginTest@24aed80c]" started-at="2025-03-16T17:26:53 IST" name="reportClose" finished-at="2025-03-16T17:26:54 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportClose -->
+      </class> <!-- test.InvalidLoginTest -->
+    </test> <!-- EdgeTest1 -->
+    <test started-at="2025-03-16T17:26:43 IST" name="ChromeTest" finished-at="2025-03-16T17:26:44 IST" duration-ms="1400">
+      <class name="test.ReegisterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ReegisterTest@5b12b668]" started-at="2025-03-16T17:26:43 IST" name="setUp" finished-at="2025-03-16T17:26:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.ReegisterTest@5b12b668]" started-at="2025-03-16T17:26:43 IST" name="testDetails" finished-at="2025-03-16T17:26:43 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Test name must not be null or empty]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Test name must not be null or empty
+at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:97)
+at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:118)
+at com.aventstack.extentreports.ExtentReports.createTest(ExtentReports.java:231)
+at Base.ProjectSpecificationMethods.testDetails(ProjectSpecificationMethods.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="LaunchingAndLoading(java.lang.String,java.lang.String)[pri:0, instance:test.ReegisterTest@5b12b668]" started-at="2025-03-16T17:26:44 IST" name="LaunchingAndLoading" finished-at="2025-03-16T17:26:44 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingAndLoading -->
+        <test-method signature="RegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ReegisterTest@5b12b668]" started-at="2025-03-16T17:26:44 IST" name="RegisterTest" data-provider="readData" finished-at="2025-03-16T17:26:44 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sharmilaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Devasudhas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sharmila11235@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Leema.12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Leema.12345]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Test name must not be null or empty]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Test name must not be null or empty
+at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:97)
+at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:118)
+at com.aventstack.extentreports.ExtentReports.createTest(ExtentReports.java:231)
+at Base.ProjectSpecificationMethods.testDetails(ProjectSpecificationMethods.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.ReegisterTest@5b12b668]" started-at="2025-03-16T17:26:44 IST" name="closebrowser" finished-at="2025-03-16T17:26:44 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.ReegisterTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-03-16T17:26:43 IST" name="EdgeTest" finished-at="2025-03-16T17:26:53 IST" duration-ms="10612">
+      <class name="test.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginPageTest@5dda768f]" started-at="2025-03-16T17:26:43 IST" name="setUp" finished-at="2025-03-16T17:26:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.LoginPageTest@5dda768f]" started-at="2025-03-16T17:26:43 IST" name="testDetails" finished-at="2025-03-16T17:26:43 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="LaunchingAndLoading(java.lang.String,java.lang.String)[pri:0, instance:test.LoginPageTest@5dda768f]" started-at="2025-03-16T17:26:43 IST" name="LaunchingAndLoading" finished-at="2025-03-16T17:26:52 IST" duration-ms="9123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingAndLoading -->
+        <test-method signature="LoginTest()[pri:0, instance:test.LoginPageTest@5dda768f]" started-at="2025-03-16T17:26:52 IST" name="LoginTest" finished-at="2025-03-16T17:26:53 IST" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.LoginPageTest@5dda768f]" started-at="2025-03-16T17:26:53 IST" name="closebrowser" finished-at="2025-03-16T17:26:53 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.LoginPageTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
