@@ -34,11 +34,6 @@
 		    <artifactId>poi-ooxml</artifactId>
 		    <version>5.2.5</version>
 		</dependency>
-		<dependency>
-			<groupId>Codekata</groupId>
-			<artifactId>Codekata</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 <dependency>
